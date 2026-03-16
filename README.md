@@ -43,11 +43,11 @@ The analysis uses publicly available global development datasets:
 The dataset includes 26 development indicators that are not directly used in the HDI formula but may influence human development outcomes.
 
 Examples of indicators examined include:
-	-	internet usage
-	-	energy access
-	-	education indicators
-	-	infrastructure indicators
-	-	population and demographic variables
+* internet usage
+* energy access
+* education indicators
+* infrastructure indicators
+* population and demographic variables
 
 ⸻
 
@@ -56,9 +56,9 @@ Examples of indicators examined include:
 The project applies several statistical and machine learning techniques to analyze relationships between development indicators and HDI.
 
 ### Data Preprocessing
-	-	Handling missing values
-	-	Data normalization and standardization
-	-	Variable selection and dimensionality reduction
+* Handling missing values
+* Data normalization and standardization
+* Variable selection and dimensionality reduction
 
 ### Modeling Approaches
 
@@ -79,11 +79,11 @@ Countries are grouped based on development indicators to explore structural simi
 ## Key Outputs
 
 The analysis produces several types of outputs:
-	-	Correlation analysis between indicators and HDI
-	-	Feature importance rankings
-	-	Regression model comparisons
-	-	Country development clusters
-	-	Data visualizations highlighting key development indicators
+* Correlation analysis between indicators and HDI
+* Feature importance rankings
+* Regression model comparisons
+* Country development clusters
+* Data visualizations highlighting key development indicators
 
 These outputs help identify variables that may be strongly associated with human development outcomes.
 
@@ -94,10 +94,10 @@ These outputs help identify variables that may be strongly associated with human
 Although this project is exploratory in nature, the results illustrate how data-driven analysis could assist development organizations in prioritizing interventions.
 
 Possible applications include:
-	-	helping development organizations identify high-impact areas for investment
-	-	supporting evidence-based policy discussions
-	-	assisting international organizations in evaluating development priorities
-	-	improving communication with donors through data-driven insights and visualization
+* helping development organizations identify high-impact areas for investment
+* supporting evidence-based policy discussions
+* assisting international organizations in evaluating development priorities
+* improving communication with donors through data-driven insights and visualization
 
 Organizations involved in global development—such as the World Bank and the United Nations Development Programme—frequently rely on large datasets to guide development strategies, making analytical approaches like this increasingly valuable.
 
@@ -135,22 +135,22 @@ hdi-development-drivers/
 ## Tools and Technologies
 
 Programming Language:
-	-	Python
+* Python
 
 Libraries:
-	-	Pandas
-	-	NumPy
-	-	Scikit-learn
-	-	Matplotlib / Seaborn
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib / Seaborn
 
 ⸻
 
 ## Limitations
 
 Several limitations should be considered when interpreting the results of this analysis:
-	-	Not all countries have complete data for all indicators.
-	-	Statistical relationships identified in the models do not necessarily imply causal relationships.
-	-	Development outcomes are influenced by complex political, institutional, and economic factors that may not be fully captured in quantitative datasets.
+* Not all countries have complete data for all indicators.
+* Statistical relationships identified in the models do not necessarily imply causal relationships.
+* Development outcomes are influenced by complex political, institutional, and economic factors that may not be fully captured in quantitative datasets.
 
 Future work could incorporate additional indicators, time-series analysis, or causal inference methods to further explore the drivers of human development.
 
@@ -162,6 +162,3 @@ Shristi Dhakal
 
 MS in Data Science | Data Scientist
 Interested in AI for social impact, development economics, and data-driven policy analysis.
-
-
-
