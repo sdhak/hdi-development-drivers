@@ -7,9 +7,11 @@ Primary data sources:
 * United Nations Development Programme – Human Development Index dataset
 
 ## Folder Structure
-external/   → Original downloaded datasets (unchanged; filenames standardized)
-raw/        → Selected and merged datasets (before cleaning)
+````
+external/   → Original downloaded datasets (unchanged; filenames standardized) <br/>
+raw/        → Selected and merged datasets (before cleaning) <br/>
 processed/  → Cleaned datasets used for modeling
+````
 
 ## How to Download the Data
 
