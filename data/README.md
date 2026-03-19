@@ -8,8 +8,8 @@ Primary data sources:
 
 ## Folder Structure
 ````
-external/   → Original downloaded datasets (unchanged; filenames standardized). 
-raw/        → Selected and merged datasets (before cleaning). 
+external/   → Original downloaded datasets (unchanged; filenames standardized)\
+raw/        → Selected and merged datasets (before cleaning)\
 processed/  → Cleaned datasets used for modeling
 ````
 
