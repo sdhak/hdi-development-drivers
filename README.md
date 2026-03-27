@@ -104,32 +104,16 @@ Organizations involved in global development—such as the World Bank and the Un
 ## Repository Structure
 ```
 hdi-development-drivers/
+├─ data/
+│   └─ raw/
+│       ├─ wdi_selected_indicators.csv   # World Bank selected indicators
+│       └─ hdi_undp.xlsx                  # HDI data from UNDP
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
+├─ notebooks/
+│   └─ HDI_Analysis_Full.ipynb
 │
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   ├── 03_modeling_regression.ipynb
-│   ├── 04_tree_models.ipynb
-│   └── 05_clustering_analysis.ipynb
-│
-├── src/
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│   └── visualization.py
-│
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── models/
-│
-└── reports/
-    └── project_summary.md
+├─ README.md
+
 ```
 
 ## Tools and Technologies
